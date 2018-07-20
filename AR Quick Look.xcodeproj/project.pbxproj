@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45CA7A45210204760033ECDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA7A44210204760033ECDB /* AppDelegate.swift */; };
+		45CA7A47210204760033ECDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA7A46210204760033ECDB /* ViewController.swift */; };
+		45CA7A4A210204760033ECDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A48210204760033ECDB /* Main.storyboard */; };
+		45CA7A4C210204770033ECDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A4B210204770033ECDB /* Assets.xcassets */; };
+		45CA7A4F210204770033ECDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A4D210204770033ECDB /* LaunchScreen.storyboard */; };
+		45CA7A57210205B90033ECDB /* LibraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA7A56210205B80033ECDB /* LibraryCollectionViewCell.swift */; };
+		45CA7A61210205D60033ECDB /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A59210205D50033ECDB /* teapot.usdz */; };
+		45CA7A62210205D60033ECDB /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A5A210205D50033ECDB /* wateringcan.usdz */; };
+		45CA7A63210205D60033ECDB /* wheelbarrow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A5B210205D50033ECDB /* wheelbarrow.usdz */; };
+		45CA7A64210205D60033ECDB /* redchair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A5C210205D50033ECDB /* redchair.usdz */; };
+		45CA7A65210205D60033ECDB /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A5D210205D50033ECDB /* gramophone.usdz */; };
+		45CA7A66210205D60033ECDB /* plantpot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A5E210205D50033ECDB /* plantpot.usdz */; };
+		45CA7A67210205D60033ECDB /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A5F210205D50033ECDB /* tulip.usdz */; };
+		45CA7A68210205D60033ECDB /* cupandsaucer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7A60210205D50033ECDB /* cupandsaucer.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45CA7A41210204760033ECDB /* AR Quick Look.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Quick Look.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CA7A44210204760033ECDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45CA7A46210204760033ECDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45CA7A49210204760033ECDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45CA7A4B210204770033ECDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45CA7A4E210204770033ECDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45CA7A50210204770033ECDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CA7A56210205B80033ECDB /* LibraryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		45CA7A59210205D50033ECDB /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; name = teapot.usdz; path = "AR Quick Look/Models/teapot.usdz"; sourceTree = SOURCE_ROOT; };
+		45CA7A5A210205D50033ECDB /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; name = wateringcan.usdz; path = "AR Quick Look/Models/wateringcan.usdz"; sourceTree = SOURCE_ROOT; };
+		45CA7A5B210205D50033ECDB /* wheelbarrow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; name = wheelbarrow.usdz; path = "AR Quick Look/Models/wheelbarrow.usdz"; sourceTree = SOURCE_ROOT; };
+		45CA7A5C210205D50033ECDB /* redchair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; name = redchair.usdz; path = "AR Quick Look/Models/redchair.usdz"; sourceTree = SOURCE_ROOT; };
+		45CA7A5D210205D50033ECDB /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; name = gramophone.usdz; path = "AR Quick Look/Models/gramophone.usdz"; sourceTree = SOURCE_ROOT; };
+		45CA7A5E210205D50033ECDB /* plantpot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; name = plantpot.usdz; path = "AR Quick Look/Models/plantpot.usdz"; sourceTree = SOURCE_ROOT; };
+		45CA7A5F210205D50033ECDB /* tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; name = tulip.usdz; path = "AR Quick Look/Models/tulip.usdz"; sourceTree = SOURCE_ROOT; };
+		45CA7A60210205D50033ECDB /* cupandsaucer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; name = cupandsaucer.usdz; path = "AR Quick Look/Models/cupandsaucer.usdz"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45CA7A3E210204760033ECDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45CA7A38210204760033ECDB = {
+			isa = PBXGroup;
+			children = (
+				45CA7A43210204760033ECDB /* AR Quick Look */,
+				45CA7A42210204760033ECDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45CA7A42210204760033ECDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45CA7A41210204760033ECDB /* AR Quick Look.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45CA7A43210204760033ECDB /* AR Quick Look */ = {
+			isa = PBXGroup;
+			children = (
+				45CA7A58210205BF0033ECDB /* Models */,
+				45CA7A44210204760033ECDB /* AppDelegate.swift */,
+				45CA7A46210204760033ECDB /* ViewController.swift */,
+				45CA7A56210205B80033ECDB /* LibraryCollectionViewCell.swift */,
+				45CA7A48210204760033ECDB /* Main.storyboard */,
+				45CA7A4B210204770033ECDB /* Assets.xcassets */,
+				45CA7A4D210204770033ECDB /* LaunchScreen.storyboard */,
+				45CA7A50210204770033ECDB /* Info.plist */,
+			);
+			path = "AR Quick Look";
+			sourceTree = "<group>";
+		};
+		45CA7A58210205BF0033ECDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45CA7A60210205D50033ECDB /* cupandsaucer.usdz */,
+				45CA7A5D210205D50033ECDB /* gramophone.usdz */,
+				45CA7A5E210205D50033ECDB /* plantpot.usdz */,
+				45CA7A5C210205D50033ECDB /* redchair.usdz */,
+				45CA7A59210205D50033ECDB /* teapot.usdz */,
+				45CA7A5F210205D50033ECDB /* tulip.usdz */,
+				45CA7A5A210205D50033ECDB /* wateringcan.usdz */,
+				45CA7A5B210205D50033ECDB /* wheelbarrow.usdz */,
+			);
+			name = Models;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45CA7A40210204760033ECDB /* AR Quick Look */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CA7A53210204770033ECDB /* Build configuration list for PBXNativeTarget "AR Quick Look" */;
+			buildPhases = (
+				45CA7A3D210204760033ECDB /* Sources */,
+				45CA7A3E210204760033ECDB /* Frameworks */,
+				45CA7A3F210204760033ECDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR Quick Look";
+			productName = "AR Quick Look";
+			productReference = 45CA7A41210204760033ECDB /* AR Quick Look.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45CA7A39210204760033ECDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Piotr Sirek";
+				TargetAttributes = {
+					45CA7A40210204760033ECDB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 45CA7A3C210204760033ECDB /* Build configuration list for PBXProject "AR Quick Look" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45CA7A38210204760033ECDB;
+			productRefGroup = 45CA7A42210204760033ECDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45CA7A40210204760033ECDB /* AR Quick Look */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45CA7A3F210204760033ECDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CA7A61210205D60033ECDB /* teapot.usdz in Resources */,
+				45CA7A4F210204770033ECDB /* LaunchScreen.storyboard in Resources */,
+				45CA7A68210205D60033ECDB /* cupandsaucer.usdz in Resources */,
+				45CA7A67210205D60033ECDB /* tulip.usdz in Resources */,
+				45CA7A64210205D60033ECDB /* redchair.usdz in Resources */,
+				45CA7A65210205D60033ECDB /* gramophone.usdz in Resources */,
+				45CA7A63210205D60033ECDB /* wheelbarrow.usdz in Resources */,
+				45CA7A66210205D60033ECDB /* plantpot.usdz in Resources */,
+				45CA7A4C210204770033ECDB /* Assets.xcassets in Resources */,
+				45CA7A4A210204760033ECDB /* Main.storyboard in Resources */,
+				45CA7A62210205D60033ECDB /* wateringcan.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45CA7A3D210204760033ECDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CA7A47210204760033ECDB /* ViewController.swift in Sources */,
+				45CA7A57210205B90033ECDB /* LibraryCollectionViewCell.swift in Sources */,
+				45CA7A45210204760033ECDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45CA7A48210204760033ECDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CA7A49210204760033ECDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45CA7A4D210204770033ECDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CA7A4E210204770033ECDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45CA7A51210204770033ECDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45CA7A52210204770033ECDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45CA7A54210204770033ECDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5989FAYJSD;
+				INFOPLIST_FILE = "AR Quick Look/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "piotrsirek.AR-Quick-Look";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45CA7A55210204770033ECDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5989FAYJSD;
+				INFOPLIST_FILE = "AR Quick Look/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "piotrsirek.AR-Quick-Look";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45CA7A3C210204760033ECDB /* Build configuration list for PBXProject "AR Quick Look" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CA7A51210204770033ECDB /* Debug */,
+				45CA7A52210204770033ECDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CA7A53210204770033ECDB /* Build configuration list for PBXNativeTarget "AR Quick Look" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CA7A54210204770033ECDB /* Debug */,
+				45CA7A55210204770033ECDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45CA7A39210204760033ECDB /* Project object */;
+}
